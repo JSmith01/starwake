@@ -1,0 +1,24 @@
+# ESP-IDF generated output and locally configured build state
+**/build/
+**/build-check/
+**/managed_components/
+**/sdkconfig
+**/sdkconfig.old
+**/sdkconfig.backup
+
+# Logs, local environment files, credentials, and downloaded installers
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.exe
+
+# Editor and OS noise
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

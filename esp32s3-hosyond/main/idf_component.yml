@@ -1,0 +1,4 @@
+dependencies:
+  idf: ">=5.3"
+  espressif/esp_lcd_st77922: "^2.0.2"
+  espressif/esp_codec_dev: "^1.6.2"

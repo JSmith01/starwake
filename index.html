@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07101d">
+  <title>Starwake — A Pocket Starfighter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="cabinet">
+    <header class="masthead">
+      <a class="wordmark" href="#" aria-label="Starwake home"><span class="mark">✦</span> STARWAKE</a>
+      <div class="edition">FLIGHT LOG <span>01 / THE RIFT</span></div>
+    </header>
+    <section class="screen-wrap" aria-label="Starwake game">
+      <canvas id="game" width="960" height="540" aria-label="Horizontal space shooter game"></canvas>
+      <div class="scanlines" aria-hidden="true"></div>
+      <div class="screen-corner top-left"></div><div class="screen-corner top-right"></div>
+      <div class="screen-corner bottom-left"></div><div class="screen-corner bottom-right"></div>
+    </section>
+    <footer class="controls">
+      <div><span class="key">W A S D</span><span class="key">← ↑ ↓ →</span><small>FLIGHT</small></div>
+      <div><span class="key wide">SPACE</span><small>FIRE</small></div>
+      <div><span class="key">SHIFT</span><small>CHARGE / RELEASE</small></div>
+      <div><span class="key">P</span><small>PAUSE</small></div>
+      <div class="sound-note"><span class="sound-dot"></span> SOUND ENABLES ON FIRST INPUT</div>
+    </footer>
+    <div class="signature">A SMALL ARCADE FLIGHT <span>·</span> TAKE YOUR TIME, PILOT</div>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+build/
+build-check/
+managed_components/
+sdkconfig
